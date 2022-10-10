@@ -124,3 +124,5 @@ Other notes:
 
 I learned about the BEM naming methodology from [@FancyBaguette](https://www.frontendmentor.io/profile/FancyBaguette)'s [feedback](https://www.frontendmentor.io/solutions/interactive-rating-component-rqPfUOlrWu#:~:text=Most%20commonly%20used%20methodology%20is%20BEM%20%2D%20you%20can%20read%20about%20it%20here%20https%3A//getbem.com/naming/) to [@aheduardo5
 ](https://www.frontendmentor.io/profile/aheduardo5).
+
+Made some improvements based on [@vcarames](https://www.frontendmentor.io/profile/vcarames)'s [feedback](https://www.frontendmentor.io/solutions/nft-preview-card-component-sLS8WV2fMg#:~:text=Hey%20%40ahmedhanyh%2C%20some,Happy%20Coding!%20%F0%9F%91%BB%F0%9F%8E%83).

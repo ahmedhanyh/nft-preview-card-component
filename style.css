@@ -71,14 +71,17 @@ body {
 .main__heading-1 {
   color: white;
   font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .main__para {
   color: var(--soft-blue);
+  font-weight: 300;
 }
 
 .main__price {
   color: var(--cyan);
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -86,6 +89,10 @@ body {
 
 .price__days-left {
   color: var(--soft-blue);
+}
+
+.price__eth {
+  font-weight: 600;
 }
 
 .price__eth,
@@ -98,6 +105,7 @@ body {
 .main__author {
   border-top: 1px solid var(--very-dark-blue-line);
   color: var(--soft-blue);
+  font-weight: 400;
   padding: 12px 0;
   display: flex;
   align-items: center;
@@ -114,10 +122,14 @@ body {
   color: white;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .main__heading-1:hover,
 .author__name:hover {
   color: var(--cyan);
-  cursor: pointer;
 }
 
 .attribution {
