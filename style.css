@@ -123,10 +123,11 @@ body {
 .attribution {
   position: fixed;
   bottom: 4px;
-  font-size: 11px;
+  color: white;
+  font-size: 12px;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 49%, 54%);
 }
