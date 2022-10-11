@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --very-dark-blue-body: hsl(217, 54%, 11%); /* (main BG) */
+  --very-dark-blue-card: hsl(216, 50%, 16%); /* (card BG) */
+  --very-dark-blue-line: hsl(215, 32%, 27%); /* (line) */
+
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--very-dark-blue-body);
+  height: 100vh;
+  font-size: 0.9rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  max-width: 320px;
+  background-color: var(--very-dark-blue-card);
+  margin: 20px;
+  padding: 0 20px;
+  border-radius: 12px;
+}
+
+.main > * {
+  margin: 20px 0;
+}
+
+.main__image-container {
+  position: relative;
+}
+
+.image-container__main-image {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.image-container__view-icon {
+  background-color: hsla(178, 100%, 50%, 50%);
+  background-image: url(./images/icon-view.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.image-container__view-icon:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.main__heading-1 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.main__para {
+  color: var(--soft-blue);
+}
+
+.main__price {
+  color: var(--cyan);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price__days-left {
+  color: var(--soft-blue);
+}
+
+.price__eth,
+.price__days-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.main__author {
+  border-top: 1px solid var(--very-dark-blue-line);
+  color: var(--soft-blue);
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.author__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.author__name {
+  color: white;
+}
+
+.main__heading-1:hover,
+.author__name:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 4px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
